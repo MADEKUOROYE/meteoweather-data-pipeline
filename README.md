@@ -10,6 +10,7 @@ This project was built as a Data Engineering capstone to demonstrate end-to-end 
 Open-Meteo API → Extract → Transform → Load → SQLite (Star Schema)
 ↑
 Orchestrated daily by Airflow
+
 ## Star Schema Design
 
 **Fact Table**
@@ -32,6 +33,7 @@ weather_pipeline/
 ├── pipeline.py            # Class-based pipeline entry point
 ├── docker-compose.yaml    # Airflow infrastructure
 └── requirements.txt
+
 ## Airflow DAG
 
 The pipeline runs daily via Airflow with three sequential tasks:
@@ -52,9 +54,10 @@ Each task depends on the success of the previous one — if extraction fails, tr
 ```bash
 pip install -r requirements.txt
 python pipeline.py
-# With Airflow (Docker):
+
+** With Airflow (Docker):**
+
 docker compose up airflow-init
 docker compose up -d
 pytest tests/
-Author
-Moses Adekuoroye
+Author: Moses Adekuoroye
