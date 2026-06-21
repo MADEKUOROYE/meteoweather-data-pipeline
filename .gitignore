@@ -1,9 +1,6 @@
-gitignore_content = """
 __pycache__/
 *.pyc
 *.db
-#logs/*.log
 .pytest_cache/
 .ipynb_checkpoints/
 *.egg-info/
-"""
