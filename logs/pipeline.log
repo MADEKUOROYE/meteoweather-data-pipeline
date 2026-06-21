@@ -1,0 +1,18 @@
+2026-06-20 10:31:54,447 - INFO - ========== PIPELINE STARTED ==========
+2026-06-20 10:31:54,448 - INFO - Starting extraction for lat=6.45, lon=3.4
+2026-06-20 10:31:54,660 - INFO - Extraction successful! 14 rows retrieved.
+2026-06-20 10:31:54,662 - INFO - Starting transformation...
+2026-06-20 10:31:54,674 - INFO - Removed 0 duplicate rows
+2026-06-20 10:31:54,675 - INFO - Transformation successful! 14 rows ready.
+2026-06-20 10:31:54,675 - INFO - Starting load into database: weather_analytics.db
+2026-06-20 10:31:54,714 - INFO - All tables loaded successfully!
+2026-06-20 10:31:54,714 - INFO - ========== PIPELINE COMPLETED ==========
+2026-06-21 17:53:23,119 - INFO - ========== PIPELINE STARTED ==========
+2026-06-21 17:53:23,120 - INFO - Starting extraction for lat=6.45, lon=3.4
+2026-06-21 17:53:23,514 - INFO - Extraction successful! 14 rows retrieved.
+2026-06-21 17:53:23,515 - INFO - Starting transformation...
+2026-06-21 17:53:23,578 - INFO - Removed 0 duplicate rows
+2026-06-21 17:53:23,581 - INFO - Transformation successful! 14 rows ready.
+2026-06-21 17:53:23,581 - INFO - Starting load into database: weather_analytics.db
+2026-06-21 17:53:23,661 - INFO - All tables loaded successfully!
+2026-06-21 17:53:23,662 - INFO - ========== PIPELINE COMPLETED ==========
